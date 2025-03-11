@@ -32,10 +32,15 @@ npm install
 
 ## Set up the environment variables in a .env file:
 PORT=8000
-MONGO_URL=mongodb url 
+
+MONGO_URL=mongodb url
+
 USER_SECRET_KEY=your-secret-key
+
 CLOUDINARY_NAME=do7pydtrf
+
 CLOUDINARY_API_KEY=your-api-key
+
 CLOUDINARY_API_SECRET=your-api-secret
 
 
