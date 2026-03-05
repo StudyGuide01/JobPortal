@@ -16,15 +16,8 @@ const app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
-// const corsOptions = {
-//     origin:'http://localhost:5173',
-//     credentials:true
-// }
-
 const corsOptions = {
-	origin: [
-		"https://jobhub-g1x0.onrender.com"
-	],
+	origin: 'http://localhost:5173',
 	credentials: true
 }
 
